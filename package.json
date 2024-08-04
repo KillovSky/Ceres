@@ -1,0 +1,44 @@
+{
+  "name": "ceres",
+  "version": "1.0.0",
+  "build_date": "04-08-2024",
+  "build_name": "rabbit",
+  "private": true,
+  "description": "O Projeto Ceres é um plugin opcional em Golang para o Projeto Íris, que possibilita a implementação de diversas funcionalidades em Golang, incluindo a compilação de códigos. Com isso, o Ceres pode eliminar a necessidade de modificar o código principal do Íris ou de aprender Node.js (JavaScript) para realizar alterações.",
+  "main": "go.main",
+  "scripts": {
+    "start": "go run main.go",
+    "install": "go mod tidy"
+  },
+  "author": "KillovSky",
+  "documentation": "https://github.com/KillovSky/Ceres/wiki",
+  "homepage": "https://github.com/KillovSky/Ceres",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KillovSky/Ceres.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KillovSky/Ceres/issues"
+  },
+  "social": {
+    "github": "https://github.com/KillovSky",
+    "npm": "https://npmjs.com/~killovsky",
+    "other": "https://linktr.ee/killovsky"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "funding": [
+    {
+      "type": "kofi",
+      "url": "http://ko-fi.com/killovsky"
+    },
+    {
+      "type": "others",
+      "url": "https://linktr.ee/killovsky"
+    }
+  ],
+  "devDependencies": {},
+  "directories": {
+    "src": "src"
+  }
+}
